@@ -1,0 +1,91 @@
+.department-container {
+  max-width: 1190px;
+  height: 100%;
+  margin: auto;
+  margin-top: 50px;
+  border: 1px solid green;
+}
+.department-container .title-acad-container {
+  width: 400px;
+  height: 100%;
+  background-color: green;
+  text-align: center;
+  border-radius: 0 0 100px 0;
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+}
+.department-container .dept-mainContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  flex-wrap: wrap;
+}
+.department-container .dept-mainContainer .dept-container {
+  width: 100%;
+  max-width: 235px;
+  height: 100%;
+  position: relative;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.department-container .dept-mainContainer .dept-container .logo-container {
+  width: 140px;
+  height: 110px;
+  border: 1px solid green;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: -25%;
+  left: 20%;
+  z-index: 1;
+  background-color: white;
+  box-shadow: 4px 3px 4px 1px rgba(51, 51, 51, 0.75);
+}
+
+.department-container .dept-mainContainer .dept-container .logo-container img {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  object-fit: fill;
+}
+
+.department-container
+  .dept-mainContainer
+  .dept-container
+  .logo-bottom-container {
+  padding: 65px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 5px;
+  margin: 20px;
+  border: 1px solid var(--green);
+}
+
+.department-container
+  .dept-mainContainer
+  .dept-container
+  .logo-bottom-container
+  .department-button-view {
+  max-width: 105px;
+  width: 100%;
+  background-color: transparent;
+  border-radius: 5px;
+  color: var(--green);
+  border: 1px solid var(--green);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.department-container
+  .dept-mainContainer
+  .dept-container
+  .logo-bottom-container
+  .department-button-view:hover {
+  color: white;
+  background-color: green;
+}

@@ -1,0 +1,101 @@
+.news-container {
+  max-width: 1190px;
+  height: 100%;
+  margin: auto;
+  border: 1px solid green;
+  margin-top: 50px;
+}
+.news-container h1 {
+  width: 400px;
+  text-align: center;
+  color: white;
+  background-color: green;
+  border-radius: 0 0 100px 0;
+}
+.news-container .news-box h1 {
+  text-align: left;
+  color: black;
+}
+.news-container .news-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.news-container .news-box .news {
+  width: 360px;
+  height: 100%;
+  margin: 10px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  text-align: center;
+  border: 2px solid green;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 4px 3px 4px 1px rgb(51 51 51 / 75%);
+}
+.news-container .news-box .news span {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: none;
+}
+.news-container .news-box .news p {
+  color: #3c3f45;
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  margin-top: 15px;
+}
+.news-container .news-box .news .news-img-box {
+  width: 100%;
+  height: 250px;
+  border-radius: 15px;
+  position: relative;
+  border: 1px solid green;
+}
+.news-container .news-box .news .news-img-box .a-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent;
+  opacity: 0;
+}
+.news-container .news-box .news .news-img-box .a-container:hover {
+  border-radius: 15px;
+  background: rgba(6, 216, 34, 0.5);
+  opacity: 1;
+}
+.news-container .news-box .news .news-img-box .a-container a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  text-decoration: none;
+  color: white;
+  opacity: 1;
+  font-size: 20px;
+  font-weight: 700;
+  transition: 0.2s ease;
+}
+
+.news-container .news-box .news .news-img-box .a-container a:hover {
+  background-color: white;
+  color: green;
+  opacity: 1;
+  border-radius: 5px;
+  padding: 5px 15px 5px 15px;
+}
+
+.news-container .news-box .news .news-img-box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: 0.2s ease;
+}
