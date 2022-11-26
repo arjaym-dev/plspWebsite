@@ -1,0 +1,136 @@
+.addmission-mobile {
+  max-width: 1190px;
+  height: 100%;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.addmission-mobile .admission-container {
+  max-width: 100%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+  box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.6);
+}
+.addmission-mobile .admission-container .admission-admission {
+  width: 100%;
+  height: 100%;
+}
+.addmission-mobile .admission-container .text-admission a {
+  text-decoration: none;
+  cursor: pointer;
+  color: green;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 20px;
+  transition: all 0.2s ease;
+}
+.addmission-mobile .admission-container .admission-icon {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.addmission-mobile .admission-container .admission-icon i {
+  color: green;
+  font-size: 40px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.addmission-mobile .admission-container .clickHereOpen-container {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: green;
+  font-size: 20px;
+  cursor: pointer;
+  font-style: italic;
+  transition: all 0.2s ease;
+}
+.addmission-mobile .admission-container .clickHereOpen-container:hover {
+  color: #2cf022;
+}
+
+.addmission-mobile .admission-container .admission-icon i:hover {
+  color: #2cf022;
+  font-size: 50px;
+}
+
+/* MOBILE APPLICATION */
+
+.addmission-mobile .mobile-container {
+  max-width: 100%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 42px;
+  box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.6);
+}
+
+.addmission-mobile .mobile-container .mobile-text-container {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: green;
+  font-size: 30px;
+  font-weight: 600;
+}
+.addmission-mobile .mobile-container .download-icon {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: green;
+  font-size: 45px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: all 0.2s ease;
+}
+
+.addmission-mobile .mobile-container .clickHere-container {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: green;
+  font-size: 20px;
+  cursor: pointer;
+  font-style: italic;
+  transition: all 0.2s ease;
+}
+.addmission-mobile .mobile-container .download-icon:hover {
+  color: #2cf022;
+  font-size: 50px;
+}
+.addmission-mobile .mobile-container .clickHere-container:hover {
+  color: #2cf022;
+}
+
+@media screen and (max-width: 754px) {
+  .addmission-mobile .admission-container {
+    margin-top: 30px;
+  }
+  .addmission-mobile .mobile-container {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 537px) {
+  .addmission-mobile .admission-container {
+    margin-top: 30px;
+  }
+  .addmission-mobile .mobile-container {
+    margin-top: 50px;
+  }
+  .addmission-mobile {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
