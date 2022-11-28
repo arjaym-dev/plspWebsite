@@ -1,0 +1,36 @@
+.map-container {
+  max-width: 1190px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  position: relative;
+  margin-bottom: 50px;
+  border: 1px solid green;
+  padding: 20px;
+}
+.map-container .map-findUs {
+  width: 400px;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  background-color: #1eb02a;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  border-radius: 0 0 100px 0;
+}
+.map-container iframe {
+  width: 100%;
+  height: 500px;
+  margin-top: 30px;
+}
+@media screen and (max-width: 537px) {
+  .map-container .map-findUs {
+    width: 100%;
+    text-align: center;
+  }
+}

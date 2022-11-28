@@ -2,13 +2,13 @@
   max-width: 1190px;
   height: 100%;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 70px;
   border: 1px solid green;
 }
 .department-container .title-acad-container {
   width: 400px;
   height: 100%;
-  background-color: green;
+  background-color: #1eb02a;
   text-align: center;
   border-radius: 0 0 100px 0;
   color: white;
@@ -87,7 +87,7 @@
   .logo-bottom-container
   .department-button-view:hover {
   color: white;
-  background-color: green;
+  background-color: #1eb02a;
 }
 
 @media screen and (max-width: 537px) {

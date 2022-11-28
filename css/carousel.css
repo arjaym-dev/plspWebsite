@@ -1,5 +1,6 @@
 .carousel {
-  width: 100%;
+  max-width: 1190px;
+  margin: auto;
   height: calc(100vh - 130px);
   position: relative;
 }
